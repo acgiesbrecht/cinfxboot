@@ -41,14 +41,9 @@ import org.springframework.context.annotation.ComponentScan;
 public class CinApplication extends Application {
 
     private ConfigurableApplicationContext springContext;
-
     private static final Logger log = LoggerFactory.getLogger(CinApplication.class);
-
     private Scene scene;
-
-    /*public static void main(String[] args) {
-        SpringApplication.run(PetClinicApplication.class, args);
-    }*/
+    private Workbench workbench;
 
     @Override
     public void init() throws Exception {
