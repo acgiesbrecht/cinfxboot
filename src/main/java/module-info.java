@@ -20,6 +20,11 @@ open module chortitzer.cinfxboot {
     requires java.sql;
     requires org.hibernate.orm.core;
 
+    requires org.apache.logging.log4j;
+    requires com.google.common;
+    requires de.jensd.fx.glyphs.commons;
+    requires de.jensd.fx.glyphs.fontawesome;
+    requires de.jensd.fx.glyphs.materialdesignicons;
     //opens com.chortitzer.cin.cinfxboot;
     //opens com.chortitzer.cin.cinfxboot.datasource.bascula;
     //opens com.chortitzer.cin.cinfxboot.datasource.bascula.repository;

@@ -16,6 +16,7 @@
 
 package com.chortitzer.cin.cinfxboot;
 
+import com.dlsc.workbenchfx.Workbench;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Scene;
